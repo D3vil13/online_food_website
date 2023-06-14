@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header1{
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.headtxt1{
+    color: red;
+    font-size: 35px;
+}
+.headtxt2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.horiline{
+    /* border: 1px solid black; */
+    /* border-color: black; */
+    background: rgb(69, 69, 69);
+    width: 100vw;
+    height: 1px;
+}
+
+.header2{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(184, 184, 184);
+    border: 2px solid #111111;
+    border-radius: 10px;
+}
+
+.headimg{
+
+    display: flex;
+    height: 40px;
+    width: 40px;
+    object-fit: fill;
+    margin-bottom: 10px;
+
+}
+.header2_{
+    width: 40vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    color: #ffffff;
+    
+    
+
+}
+.hred:hover{
+    background-color: red;
+    border-radius: 7px;
+}
+.main1{
+    width: 100%;
+    height: 500px;
+}
+.mainfixedimg{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    opacity: 0.5;
+    
+}
+.welcometxt{
+    position: absolute;
+    
+
+}
+.foodorder{
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: center; */
+    width: 100%;
+    gap: 5%;
+     
+   
+}
+.reldiv{
+    position: relative;
+}
+.txthead2{
+    display: flex;
+    justify-content: center;
+}
+.wellcometxt{
+    position: absolute;
+    /* display: flex;
+    justify-content: center; */
+    
+    top: 4%;
+    font-size: 25px;
+}
+.ordertxt{
+    position: absolute;
+    /* text-align: center; */
+    /* left:0;
+    right:0 ; */
+    /* display: flex;
+    justify-content: center; */
+    top: 13%;
+    font-size: 20px;
+}
+.ordertxt:hover{
+    background-color: #FFFF00 ;
+    border-radius: 7px;
+}
+.priceimg, .specialimg{
+    width: 200px;
+    height: 80px;
+    object-fit: cover;
+    
+}
+.header3img{
+    display: flex;
+    flex-direction: row
+}
+.featuredprofuct{
+    width: 200px;
+    height: 150px;
+}
